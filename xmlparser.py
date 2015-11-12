@@ -15,3 +15,5 @@ def xmlparser(filename):
     ret["title"] = elem.find(".//body.head/hedline/hl1").text
 
     return ret
+
+#print xmlparser("1815430.xml")
